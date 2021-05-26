@@ -1,0 +1,27 @@
+.title {
+font-size: 20px;
+color: rgb(0, 0, 0);
+}
+#boitemodale {
+visibility: hidden;
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+text-align :center;
+z-index: 10;
+}
+#boitemodale div {
+width: 45%;
+height: auto;
+margin: 100px auto;
+background-color: rgb(224, 210, 210);
+border-radius: 10px;
+border: 1px solid rgb(59, 59, 59);
+padding: 15px;
+text-align: center;
+font-weight: bold;
+font-size: 15px;
+border: 3px solid rgb(148, 147, 147);
+}
